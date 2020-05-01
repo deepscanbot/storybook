@@ -47,5 +47,11 @@ module.exports = {
         'spaced-comment': 'off',
       },
     },
+    {
+      files: ['**/*.js'],
+      rules: {
+        'arrow-parens': ['error', 'always'],
+      },
+    },
   ],
 };
